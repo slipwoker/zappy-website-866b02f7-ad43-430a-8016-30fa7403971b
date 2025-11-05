@@ -9,7 +9,7 @@ body {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7;
-  color: #111827;
+  color: #212529;
 }
 
 img {
@@ -19,18 +19,18 @@ img {
 }
 
 :root {
---primary-color: #1F2937;
-  --secondary-color: #6B7280;
-  --text-color: #111827;
+--primary-color: #2C3E50;
+  --secondary-color: #5D6D7E;
+  --text-color: #212529;
   --light-text: #ffffff;
   --bg-white: #ffffff;
-  --bg-light: #F9FAFB;
+  --bg-light: #F8F9FA;
   --shadow: 0 4px 12px rgba(0,0,0,0.1);
   --transition: all 0.3s ease;
-  --accent-color: #14B8A6;
-  --background-color: #F9FAFB;
-  --surface-color: #FFFFFF;
-  --text-secondary-color: #111827;
+  --accent-color: #00B4A6;
+  --background-color: #FFFFFF;
+  --surface-color: #F8F9FA;
+  --text-secondary-color: #212529;
 }
 
 .container {
@@ -170,7 +170,7 @@ section {
 
 .nav-menu a {
   color: var(--text-color);
-  text-decoration: #111827;
+  text-decoration: #212529;
   font-weight: 500;
   transition: var(--transition);
   padding: 8px 0;
@@ -182,7 +182,7 @@ section {
 
 .mobile-toggle,
 .phone-header-btn {
-  display: #1F2937;
+  display: #2C3E50;
   background: none;
   border: none;
   cursor: pointer;
@@ -194,7 +194,7 @@ section {
 .mobile-toggle svg,
 .phone-header-btn svg {
   color: var(--text-color);
-  transition: #111827;
+  transition: #212529;
 }
 
 .mobile-toggle:focus,
@@ -212,7 +212,7 @@ section {
 }
 
 .hero {
-  position: #1F2937;
+  position: #2C3E50;
   min-height: 600px;
   display: flex;
   align-items: center;
@@ -288,8 +288,8 @@ section {
   border-color: var(--primary-color);
 }
 
-.btn-primary:#1F2937;
-  border-color: #1F2937;
+.btn-primary:#2C3E50;
+  border-color: #2C3E50;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(233, 30, 99, 0.3);
 }
@@ -300,8 +300,8 @@ section {
   border-color: var(--secondary-color);
 }
 
-.btn-secondary:#6B7280;
-  border-color: #14B8A6;
+.btn-secondary:#5D6D7E;
+  border-color: #00B4A6;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 193, 7, 0.3);
 }
@@ -328,7 +328,7 @@ section {
 }
 
 .services-grid {
-  display: #111827;
+  display: #212529;
   grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
@@ -370,12 +370,12 @@ section {
 }
 
 .service-card p {
-  padding: #1F2937;
+  padding: #2C3E50;
   color: var(--text-color);
 }
 
 .services-cta {
-  text-align: #111827;
+  text-align: #212529;
   margin-top: 2rem;
 }
 
@@ -405,7 +405,7 @@ section {
   height: 80px;
   margin: 0 auto 1rem;
   background: var(--primary-color);
-  border-radius: #1F2937;
+  border-radius: #2C3E50;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -415,7 +415,7 @@ section {
 
 .feature-item h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .testimonials {
@@ -442,14 +442,14 @@ section {
 }
 
 .testimonial-content p {
-  font-style: #1F2937;
+  font-style: #2C3E50;
   color: var(--text-color);
-  margin-bottom: #111827;
+  margin-bottom: #212529;
 }
 
 .testimonial-author h4 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .testimonial-author span {
@@ -458,8 +458,8 @@ section {
 }
 
 .cta-section {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #1F2937 100%);
-  padding: #1F2937;
+  background: linear-gradient(135deg, var(--primary-color) 0%, #2C3E50 100%);
+  padding: #2C3E50;
   text-align: center;
 }
 
@@ -490,7 +490,7 @@ section {
 .cta-section .btn-primary {
   background: #ffffff;
   color: #000000;
-  border-color: #1F2937;
+  border-color: #2C3E50;
 }
 
 .cta-section .btn-primary:hover {background: var(--bg-light);
@@ -511,8 +511,8 @@ section {
 }
 
 .page-header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #1F2937 100%);
-  padding: #1F2937;
+  background: linear-gradient(135deg, var(--primary-color) 0%, #2C3E50 100%);
+  padding: #2C3E50;
   text-align: center;
   color: #FFFFFF;
 }
@@ -554,7 +554,7 @@ section {
 
 .service-detail-content h2 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .service-benefits {
@@ -571,7 +571,7 @@ section {
 
 .service-benefits i {
   color: var(--primary-color);
-  margin-top: #1F2937;
+  margin-top: #2C3E50;
   flex-shrink: 0;
 }
 
@@ -614,12 +614,12 @@ section {
 .info-card i {
   font-size: 48px;
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .info-card h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .about-story {
@@ -634,7 +634,7 @@ section {
 
 .story-content h2 {
   color: var(--primary-color);
-  text-align: #1F2937;
+  text-align: #2C3E50;
   margin-bottom: 1.5rem !important;
 }
 
@@ -667,7 +667,7 @@ section {
   height: 80px;
   margin: 0 auto 1rem;
   background: var(--primary-color);
-  border-radius: #1F2937;
+  border-radius: #2C3E50;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -677,7 +677,7 @@ section {
 
 .philosophy-item h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .qualifications {
@@ -705,12 +705,12 @@ section {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  border-bottom: 1px solid #6B7280;
+  border-bottom: 1px solid #6C757D;
 }
 
 .qualifications-list i {
   color: var(--primary-color);
-  margin-top: #1F2937;
+  margin-top: #2C3E50;
   flex-shrink: 0;
 }
 
@@ -719,7 +719,7 @@ section {
   padding: 24px;
   border-radius: 8px;
   border-right: 4px solid var(--primary-color);
-  font-style: #1F2937;
+  font-style: #2C3E50;
 }
 
 .approach {
@@ -747,7 +747,7 @@ section {
 
 .approach-item h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .values {
@@ -771,7 +771,7 @@ section {
 
 .value-item h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .why-choose {
@@ -803,7 +803,7 @@ section {
   height: 60px;
   margin: 0 auto 1rem;
   background: var(--primary-color);
-  border-radius: #1F2937;
+  border-radius: #2C3E50;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -814,7 +814,7 @@ section {
 
 .why-item h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .contact-section {
@@ -835,7 +835,7 @@ section {
 .contact-form-container h2,
 .contact-info-container h2 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .contact-form {
@@ -856,9 +856,9 @@ section {
 .form-group input,
 .form-group select,
 .form-group textarea {
-  width: #111827;
+  width: #212529;
   padding: 12px 16px;
-  border: 2px solid #6B7280;
+  border: 2px solid #6C757D;
   border-radius: 8px;
   font-size: 16px;
   font-family: inherit;
@@ -870,7 +870,7 @@ section {
 .form-group textarea:focus {
   outline: none;
   border-color: var(--primary-color);
-  box-shadow: #1F2937;
+  box-shadow: #2C3E50;
 }
 
 .checkbox-group {
@@ -893,7 +893,7 @@ section {
 
 .checkbox-label a {
   color: var(--primary-color);
-  text-decoration: #1F2937;
+  text-decoration: #2C3E50;
 }
 
 .contact-info-list {
@@ -904,14 +904,14 @@ section {
   display: flex;
   gap: 1rem;
   padding: 1.5rem 0;
-  border-bottom: 1px solid #6B7280;
+  border-bottom: 1px solid #6C757D;
 }
 
 .contact-icon {
   width: 50px;
   height: 50px;
   background: var(--primary-color);
-  border-radius: #1F2937;
+  border-radius: #2C3E50;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -922,12 +922,12 @@ section {
 
 .contact-details h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .contact-details a {
   color: var(--text-color);
-  text-decoration: #111827;
+  text-decoration: #212529;
   transition: var(--transition);
 }
 
@@ -936,7 +936,7 @@ section {
 }
 
 .quick-contact {
-  background: #1F2937;
+  background: #2C3E50;
   padding: 24px;
   border-radius: 12px;
   margin-top: 2rem;
@@ -944,7 +944,7 @@ section {
 
 .quick-contact h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 .quick-contact .btn {
@@ -978,7 +978,7 @@ section {
 
 .faq-item h3 {
   color: var(--primary-color);
-  margin-bottom: #1F2937;
+  margin-bottom: #2C3E50;
 }
 
 @media (max-width: 1024px) {
@@ -1145,7 +1145,7 @@ section {
     font-size: 24px;
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    background: #6B7280;
+    background: #5D6D7E;
     color: #FFFFFF;
     text-decoration: none;
     transition: var(--transition);
@@ -1236,11 +1236,11 @@ img, picture, figure {
 
     /* Legal Footer Styles - WCAG AA Compliant */
     .legal-footer {
-      background-color: #F9FAFB;
-      color: #111827;
+      background-color: #F8F9FA;
+      color: #212529;
       padding: 5px 0;
       font-size: 14px;
-      border-top: 3px solid #111827;
+      border-top: 3px solid #212529;
     }
 
     .legal-footer .container {
@@ -1271,7 +1271,7 @@ img, picture, figure {
       text-align: center;
       width: 100%;
       padding-top: 15px;
-      border-top: 1px solid #111827;
+      border-top: 1px solid #212529;
       opacity: 0.3;
     }
 
@@ -1292,7 +1292,7 @@ img, picture, figure {
     }
 
     .legal-footer .footer-social a {
-      color: #111827 !important;
+      color: #212529 !important;
       text-decoration: none;
       font-size: 22px;
       transition: color 0.3s ease, transform 0.2s ease;
@@ -1306,13 +1306,13 @@ img, picture, figure {
     }
 
     .legal-footer .footer-social a:hover {
-      color: #111827 !important;
+      color: #212529 !important;
       transform: scale(1.15);
       background-color: rgba(0, 0, 0, 0.15);
     }
 
     .legal-footer .footer-social a:focus {
-      outline: 2px solid #111827;
+      outline: 2px solid #212529;
       outline-offset: 2px;
       border-radius: 50%;
     }
@@ -1330,7 +1330,7 @@ img, picture, figure {
     }
 
     .legal-footer .footer-legal a {
-      color: #111827 !important;
+      color: #212529 !important;
       text-decoration: none;
       transition: color 0.3s ease, opacity 0.3s ease;
       font-weight: 500;
@@ -1338,19 +1338,19 @@ img, picture, figure {
     }
 
     .legal-footer .footer-legal a:hover {
-      color: #111827 !important;
+      color: #212529 !important;
       opacity: 1;
       text-decoration: underline;
     }
 
     .legal-footer .footer-legal a:focus {
-      outline: 2px solid #111827;
+      outline: 2px solid #212529;
       outline-offset: 2px;
       border-radius: 2px;
     }
 
     .legal-footer .separator {
-      color: #111827 !important;
+      color: #212529 !important;
       font-weight: 300;
       opacity: 0.7;
     }
@@ -1447,9 +1447,9 @@ img, picture, figure {
 
 /* Cookie Consent Customizations */
 :root {
-  --cc-btn-primary-bg: #6B7280;
-  --cc-btn-primary-border: #6B7280;
-  --cc-btn-primary-hover-bg: #6B7280;
+  --cc-btn-primary-bg: #5D6D7E;
+  --cc-btn-primary-border: #5D6D7E;
+  --cc-btn-primary-hover-bg: #5D6D7E;
 }
 
 #cc--main {
@@ -1486,7 +1486,7 @@ img, picture, figure {
 
 /* Basic Accessibility Enhancements */
 :root {
-  --accessibility-focus: #F9FAFB;
+  --accessibility-focus: #F8F9FA;
 }
 
 /* Skip link styles */
@@ -1614,9 +1614,9 @@ img, picture, figure {
 #mic-access-tool-general-button svg line,
 #mic-access-tool-general-button svg polyline,
 #mic-access-tool-general-button svg g {
-  fill: #F9FAFB !important;
-  stroke: #F9FAFB !important;
-  color: #F9FAFB !important;
+  fill: #F8F9FA !important;
+  stroke: #F8F9FA !important;
+  color: #F8F9FA !important;
 }
 
 /* Target images if the icon is an img instead of SVG */
@@ -1637,7 +1637,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #F9FAFB !important;
+  background: #F8F9FA !important;
   color: white !important;
 }
 
@@ -1664,7 +1664,7 @@ div[id*="mic-access-tool-box"] .header * {
 #mic-access-tool-box button:hover,
 div[id*="mic-access-tool-box"] button.active,
 div[id*="mic-access-tool-box"] button:hover {
-  border-color: #F9FAFB !important;
+  border-color: #F8F9FA !important;
   color: #000000;
   background-color: rgba(242, 242, 242, 0.1) !important;
 }
@@ -1674,7 +1674,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #F9FAFB !important;
+  background: #F8F9FA !important;
   color: #000000;
 }
 
