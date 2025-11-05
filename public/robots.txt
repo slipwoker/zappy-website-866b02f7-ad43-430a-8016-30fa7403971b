@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://-866b02f7.zappy5.app/sitemap.xml
+Sitemap: https://yael-mimon-personal-trainer.zappy5.app/sitemap.xml
