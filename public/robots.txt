@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yaelmaimon.co.il/sitemap.xml
+Sitemap: https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/sitemap.xml
