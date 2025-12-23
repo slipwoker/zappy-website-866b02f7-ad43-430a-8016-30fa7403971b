@@ -1,0 +1,43 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### About
+https://yaelmaimon.co.il/about
+
+### Contact
+https://yaelmaimon.co.il/contact
+
+### Home
+https://yaelmaimon.co.il
+
+### Services
+https://yaelmaimon.co.il/services
+
+## Legal & Policy
+
+### Privacy Policy
+https://yaelmaimon.co.il/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://yaelmaimon.co.il/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://yaelmaimon.co.il/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://yaelmaimon.co.il/sitemap.xml
+- **Robots.txt**: https://yaelmaimon.co.il/robots.txt
