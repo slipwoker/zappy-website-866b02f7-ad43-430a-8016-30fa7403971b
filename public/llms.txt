@@ -1,53 +1,43 @@
-# יעל מימון – מאמנת אישית — Generative Engine Optimization Map
-
-> A כושר ובריאות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### About
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/about
+https://yaelmaimon.co.il/about
 
 ### Contact
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/contact
+https://yaelmaimon.co.il/contact
 
 ### Home
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com
+https://yaelmaimon.co.il
 
 ### Services
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/services
+https://yaelmaimon.co.il/services
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/privacy
+https://yaelmaimon.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/terms
+https://yaelmaimon.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/accessibility
+https://yaelmaimon.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About יעל מימון – מאמנת אישית
-יעל מימון – מאמנת אישית is a business in the כושר ובריאות industry.
-
-## Target Audience
-נשים, ילדים ומתבגרים בקבוצות קטנות
-
-## Industry
-כושר ובריאות
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/sitemap.xml
-- **Robots.txt**: https://zappy-site-866b02f7-ad43-430a-8016.onrender.com/robots.txt
+- **Sitemap**: https://yaelmaimon.co.il/sitemap.xml
+- **Robots.txt**: https://yaelmaimon.co.il/robots.txt
