@@ -879,3 +879,461 @@ nav a:hover {
 [style*="color: rgb(255, 255, 255)"] {
   color: #333333 !important;
 }
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* ============================================
+   BRIGHTNESS AND CONTRAST ENHANCEMENT
+   Increase visibility and meet WCAG AAA standards
+   ============================================ */
+
+/* Hero Section - Maximum Brightness and Contrast */
+.hero-content {
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+.hero-content h1 {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.hero-content p {
+  color: #f0f0f0 !important;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Hero Overlay - Darker for Better Text Contrast */
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+  opacity: 1 !important;
+}
+
+/* All Main Content Sections - Solid Backgrounds, No Transparency */
+.intro-section,
+.services-preview,
+.why-us,
+.testimonials,
+.about-story,
+.philosophy,
+.qualifications,
+.approach,
+.values,
+.why-choose,
+.contact-section,
+.faq-section,
+.pricing-info,
+.services-detailed {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Alternating Section Backgrounds - Solid Colors */
+.philosophy,
+.approach,
+.why-choose,
+.faq-section,
+.pricing-info {
+  background-color: #f8f9fa !important;
+  opacity: 1 !important;
+}
+
+/* CTA Section - Solid Background with High Contrast Text */
+.cta-section {
+  background: linear-gradient(135deg, #F8CBD8 0%, #f5b5c9 100%) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.cta-content h2,
+.cta-content p {
+  color: #1a1a1a !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Page Header - Solid Background with High Contrast */
+.page-header {
+  background: linear-gradient(135deg, #F8CBD8 0%, #f5b5c9 100%) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.page-header h1,
+.page-header p {
+  color: #1a1a1a !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* All Text Content - Maximum Contrast */
+.intro-content p,
+.story-content p,
+.service-card p,
+.feature-item p,
+.testimonial-content p,
+.philosophy-item p,
+.approach-item p,
+.value-item p,
+.why-item p,
+.info-card p,
+.faq-item p,
+.contact-details p,
+.service-detail-content p,
+.service-benefits li,
+.qualifications-list li {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* All Headings - Maximum Contrast */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Service Cards - Solid White Background */
+.service-card,
+.feature-item,
+.testimonial-card,
+.philosophy-item,
+.approach-item,
+.value-item,
+.why-item,
+.info-card,
+.faq-item {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Card Text - High Contrast */
+.service-card h3,
+.service-card p,
+.feature-item h3,
+.feature-item p,
+.philosophy-item h3,
+.philosophy-item p,
+.approach-item h3,
+.approach-item p,
+.value-item h3,
+.value-item p,
+.why-item h3,
+.why-item p,
+.info-card h3,
+.info-card p,
+.faq-item h3,
+.faq-item p {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Testimonial Cards - Enhanced Contrast */
+.testimonial-card {
+  background-color: #ffffff !important;
+  border-right: 4px solid #F8CBD8 !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.testimonial-content p {
+  color: #2d2d2d !important;
+  opacity: 1 !important;
+}
+
+.testimonial-author h4 {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+.testimonial-author span {
+  color: #4a4a4a !important;
+  opacity: 1 !important;
+}
+
+/* Contact Section - High Contrast */
+.contact-form-container,
+.contact-info-container {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.contact-details h3,
+.contact-details p,
+.contact-details a {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* Quick Contact Box - Solid Background */
+.quick-contact {
+  background-color: #f8f9fa !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.quick-contact h3,
+.quick-contact p {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* Form Elements - High Contrast */
+.form-group label {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  font-weight: 600 !important;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  color: #1a1a1a !important;
+  background-color: #ffffff !important;
+  border: 2px solid #d0d0d0 !important;
+  opacity: 1 !important;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666666 !important;
+  opacity: 0.8 !important;
+}
+
+/* Buttons - Enhanced Contrast */
+.btn {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.btn-primary {
+  background: #F8CBD8 !important;
+  color: #1a1a1a !important;
+  border-color: #F8CBD8 !important;
+  font-weight: 600 !important;
+}
+
+.btn-secondary {
+  background: #25D366 !important;
+  color: #ffffff !important;
+  border-color: #25D366 !important;
+  font-weight: 600 !important;
+}
+
+/* Navigation - High Contrast */
+.nav-menu a {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+}
+
+/* Feature Icons - Solid Backgrounds */
+.feature-icon,
+.philosophy-icon,
+.why-number,
+.contact-icon {
+  background: #F8CBD8 !important;
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Service Benefits Icons - High Contrast */
+.service-benefits i,
+.qualifications-list i {
+  color: #F8CBD8 !important;
+  opacity: 1 !important;
+}
+
+/* Experience Note - Solid Background */
+.experience-note {
+  background-color: #f8f9fa !important;
+  border-right: 4px solid #F8CBD8 !important;
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* Remove Any Global Opacity/Filter Effects */
+section,
+.container,
+.content,
+article,
+main {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Ensure All Images Are Fully Visible */
+img,
+picture,
+figure {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Footer - High Contrast */
+.legal-footer {
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  border-top: 3px solid #1a1a1a !important;
+}
+
+.legal-footer p,
+.legal-footer a,
+.legal-footer span {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* WhatsApp Float - Maximum Visibility */
+.whatsapp-float {
+  background: #25D366 !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+  filter: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Service Detail Images - Full Brightness */
+.service-detail-image img,
+.service-image img {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Ensure No Faded Effects on Hover */
+.service-card:hover,
+.feature-item:hover,
+.testimonial-card:hover,
+.philosophy-item:hover,
+.approach-item:hover,
+.why-item:hover {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Mobile Toggle and Phone Button - High Contrast */
+.mobile-toggle svg,
+.phone-header-btn svg {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* Checkbox Labels - High Contrast */
+.checkbox-label,
+.checkbox-label span {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+.checkbox-label a {
+  color: #F8CBD8 !important;
+  opacity: 1 !important;
+  text-decoration: underline !important;
+}
+
+/* Business Hours - High Contrast */
+.business-hours p {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* Ensure All Links Are Visible */
+a {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Remove Any Transparency from Backgrounds */
+[style*="rgba"],
+[class*="overlay"]:not(.hero-overlay) {
+  opacity: 1 !important;
+}
+
+/* Story Content - Maximum Readability */
+.story-content {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+
+.story-content h2 {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  text-align: center !important;
+}
+
+.story-content p {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  line-height: 1.8 !important;
+}
+
+/* Qualifications Content - High Contrast */
+.qualifications-content {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.qualifications-list li {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+  border-bottom: 1px solid #d0d0d0 !important;
+}
+
+/* Values Content - Maximum Visibility */
+.values-content {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Contact Info Items - High Contrast */
+.contact-info-item {
+  opacity: 1 !important;
+  border-bottom: 1px solid #d0d0d0 !important;
+}
+
+/* Ensure Section Headings Stand Out */
+section h2 {
+  color: #1a1a1a !important;
+  font-weight: 600 !important;
+  opacity: 1 !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Grid Items - Full Visibility */
+.services-grid,
+.features-grid,
+.testimonials-grid,
+.philosophy-grid,
+.approach-grid,
+.values-content,
+.why-grid,
+.info-grid,
+.faq-grid {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* All Grid Children - No Fading */
+.services-grid > *,
+.features-grid > *,
+.testimonials-grid > *,
+.philosophy-grid > *,
+.approach-grid > *,
+.values-content > *,
+.why-grid > *,
+.info-grid > *,
+.faq-grid > * {
+  opacity: 1 !important;
+  filter: none !important;
+}
